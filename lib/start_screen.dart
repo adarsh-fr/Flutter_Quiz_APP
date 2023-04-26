@@ -10,7 +10,7 @@ class StartScreen extends StatelessWidget {
     return Center(
       child: Column(
         children: [
-          const SizedBox(height: 150),
+          const SizedBox(height: 200),
           Center(
             child: Image.asset('assets/images/quiz_logo.png', width: 300),
           ),
