@@ -24,7 +24,7 @@ To run the app, clone this repository and run it using Flutter.
 
 1. Clone the repository
    ```
-   git clone https://github.com/your_username/quiz_app.git
+   git clone https://github.com/adarsh-fr/Flutter_Quiz_APP.git
    ```
 2. Change directory to the cloned repository
    ```
