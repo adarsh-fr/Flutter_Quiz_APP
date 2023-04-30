@@ -6,8 +6,13 @@ const questions_data = [
     ['Widgets', 'Functions', 'Components', 'Blocks'],
   ),
   QuestionFormat(
-    'Which widget is used to create a button in Flutter?',
-    ['ElevatedButton', 'Text', 'Container', 'ListView'],
+    'What is the purpose of the "BuildContext" parameter?',
+    [
+      'To provide access to the widget tree',
+      'To handle user input',
+      'To store data',
+      'To manage state'
+    ],
   ),
   QuestionFormat(
     'What is the command used to create a new Flutter project?',

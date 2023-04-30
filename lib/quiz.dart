@@ -17,14 +17,20 @@ class _QuizState extends State<Quiz> {
   List<String> selectedAnswers = [];
   Widget activeScreen = StartScreen(() {});
 
+  void restartQuiz() {
+    setState(() {
+      selectedAnswers = [];
+      activeScreen = StartScreen(switchScreen);
+    });
+  }
+
   void chooseAnswer(String answer) {
     selectedAnswers.add(answer);
-
     if (selectedAnswers.length == questions_data.length) {
       setState(() {
-        selectedAnswers = [];
+        //selectedAnswers = [];
         activeScreen = ResultScreen(
-          choosenAnswers: selectedAnswers,
+          choosenAnswers: selectedAnswers, onRestart: restartQuiz,
         );
       });
     }
