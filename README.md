@@ -1,7 +1,7 @@
 
 # Quiz App
 
-This is a simple Quiz app about Flutter built with Flutter 🔁.
+This is a Quiz app about Flutter built with Flutter 🔁.
 
 <img width="703" alt="Screenshot 2023-04-26 at 7 44 44 PM" src="https://user-images.githubusercontent.com/59118492/235356311-5b57a23f-6b43-44ec-a430-6718d667908d.png">
 
